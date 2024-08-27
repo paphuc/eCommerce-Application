@@ -745,3 +745,145 @@
 2024-08-27 10:39:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-08-27 10:39:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-08-27 10:39:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-27 10:58:31 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SareetaApplicationTests], using SpringBootContextLoader
+2024-08-27 10:58:31 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.SareetaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-27 10:58:31 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.SareetaApplicationTests]: SareetaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-27 10:58:31 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.SareetaApplication for test class com.example.demo.SareetaApplicationTests
+2024-08-27 10:58:31 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2024-08-27 10:58:31 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@294e5088, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51972dc7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3700ec9c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2002348, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5911e990, org.springframework.test.context.transaction.TransactionalTestExecutionListener@31000e60, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d470d0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@24d09c1, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@54c62d71, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@65045a87, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47f4e407, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2d1dee39, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@48d5f34e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@fc258b1]
+2024-08-27 10:58:33 INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on DESKTOP-25QAB36 with PID 13660 (started by Admin in C:\Project\eCommerce-Application\starter_code)
+2024-08-27 10:58:33 INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default
+2024-08-27 10:58:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-08-27 10:58:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 4 repository interfaces.
+2024-08-27 10:58:36 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e63b0791] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-27 10:58:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-27 10:58:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-27 10:58:37 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-08-27 10:58:37 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2024-08-27 10:58:37 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2024-08-27 10:58:37 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-08-27 10:58:37 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-08-27 10:58:38 INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor)
+2024-08-27 10:58:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27 10:58:39 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27 10:58:40 INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36e358de, org.springframework.security.web.context.SecurityContextPersistenceFilter@23e573e, org.springframework.security.web.header.HeaderWriterFilter@7e741d6b, org.springframework.web.filter.CorsFilter@2bed5828, org.springframework.security.web.authentication.logout.LogoutFilter@7e9ed4df, com.example.demo.security.JWTAuthenticationFilter@52a2e2fb, com.example.demo.security.JWTAuthenticationVerificationFilter@7c0035dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66f5770e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f8ab988, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5089a72b, org.springframework.security.web.session.SessionManagementFilter@51097500, org.springframework.security.web.access.ExceptionTranslationFilter@2748bd6c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@775a5a67]
+2024-08-27 10:58:40 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-27 10:58:41 INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 8.502 seconds (JVM running for 11.076)
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start findByUserName method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Username is User1.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Password is invalid
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.OrderController - Start getOrdersForUser method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.OrderController - Username User2 is not found.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.OrderController - Start submit method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.OrderController - Start submit method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 10:58:41 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found Item
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.OrderController - Start getOrdersForUser method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.OrderController - Username is User1.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start addTocart method
+2024-08-27 10:58:41 ERROR c.e.demo.controllers.CartController - addTocart Not Found Item
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - removeFromcart success
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 10:58:41 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found User
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 10:58:41 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found User
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start addTocart method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - addTocart success
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start addTocart method
+2024-08-27 10:58:41 ERROR c.e.demo.controllers.CartController - addTocart Not Found User
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Created users User1.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start findById method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 10:58:41 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found User
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Created users User1.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start findById method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Created users User1.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Start findByUserName method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.UserController - Username is User1.
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.ItemController - Start getItems method
+2024-08-27 10:58:41 INFO  c.e.demo.controllers.ItemController - Start getItemById method
+2024-08-27 10:58:41 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-08-27 10:58:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27 10:58:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-27 10:58:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-27 11:06:25 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SareetaApplicationTests], using SpringBootContextLoader
+2024-08-27 11:06:25 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.SareetaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-27 11:06:25 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.SareetaApplicationTests]: SareetaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-27 11:06:25 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.SareetaApplication for test class com.example.demo.SareetaApplicationTests
+2024-08-27 11:06:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2024-08-27 11:06:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@294e5088, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51972dc7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3700ec9c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2002348, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5911e990, org.springframework.test.context.transaction.TransactionalTestExecutionListener@31000e60, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d470d0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@24d09c1, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@54c62d71, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@65045a87, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47f4e407, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2d1dee39, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@48d5f34e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@fc258b1]
+2024-08-27 11:06:27 INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on DESKTOP-25QAB36 with PID 3488 (started by Admin in C:\Project\eCommerce-Application\starter_code)
+2024-08-27 11:06:27 INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default
+2024-08-27 11:06:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-08-27 11:06:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106ms. Found 4 repository interfaces.
+2024-08-27 11:06:29 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b19274e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-27 11:06:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-27 11:06:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-27 11:06:30 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-08-27 11:06:30 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2024-08-27 11:06:30 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2024-08-27 11:06:30 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-08-27 11:06:31 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-08-27 11:06:32 INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor)
+2024-08-27 11:06:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27 11:06:33 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27 11:06:33 INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@346a2799, org.springframework.security.web.context.SecurityContextPersistenceFilter@799206ad, org.springframework.security.web.header.HeaderWriterFilter@52463255, org.springframework.web.filter.CorsFilter@17344d7, org.springframework.security.web.authentication.logout.LogoutFilter@1bd6638, com.example.demo.security.JWTAuthenticationFilter@75b4db22, com.example.demo.security.JWTAuthenticationVerificationFilter@670aac24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f8ab988, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@558ed473, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23909b3, org.springframework.security.web.session.SessionManagementFilter@16024b49, org.springframework.security.web.access.ExceptionTranslationFilter@5b3a8bea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@135a8808]
+2024-08-27 11:06:34 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-27 11:06:35 INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 8.141 seconds (JVM running for 10.288)
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start findByUserName method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Username is User1.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Password is invalid
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.OrderController - Start getOrdersForUser method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.OrderController - Username User2 is not found.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.OrderController - Start submit method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.OrderController - Start submit method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 11:06:35 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found Item
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.OrderController - Start getOrdersForUser method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.OrderController - Username is User1.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start addTocart method
+2024-08-27 11:06:35 ERROR c.e.demo.controllers.CartController - addTocart Not Found Item
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - removeFromcart success
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 11:06:35 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found User
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 11:06:35 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found User
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start addTocart method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - addTocart success
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start addTocart method
+2024-08-27 11:06:35 ERROR c.e.demo.controllers.CartController - addTocart Not Found User
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Created users User1.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start findById method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.CartController - Start removeFromcart method
+2024-08-27 11:06:35 ERROR c.e.demo.controllers.CartController - removeFromcart Not Found User
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Created users User1.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start findById method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start createUser method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Created users User1.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Start findByUserName method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.UserController - Username is User1.
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.ItemController - Start getItems method
+2024-08-27 11:06:35 INFO  c.e.demo.controllers.ItemController - Start getItemById method
+2024-08-27 11:06:35 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-08-27 11:06:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27 11:06:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-27 11:06:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-27 11:06:55 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SareetaApplicationTests], using SpringBootContextLoader
+2024-08-27 11:06:55 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.SareetaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-27 11:06:55 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.SareetaApplicationTests]: SareetaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-27 11:06:55 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.SareetaApplication for test class com.example.demo.SareetaApplicationTests
+2024-08-27 11:06:55 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2024-08-27 11:06:55 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@294e5088, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51972dc7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3700ec9c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2002348, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5911e990, org.springframework.test.context.transaction.TransactionalTestExecutionListener@31000e60, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d470d0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@24d09c1, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@54c62d71, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@65045a87, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47f4e407, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2d1dee39, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@48d5f34e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@fc258b1]
