@@ -1,9 +1,18 @@
 pipeline {
-    agent { docker { image 'maven:3.3.3' } }
+    agent {
+        docker {
+            image 'maven:3.8.6-jdk-11'
+        }
+    }
     stages {
-        stage('build') {
+        stage('Checkout') {
             steps {
-                sh 'mvn --version'
+                git 'https://github.com/paphuc/eCommerce-Application.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean install'
             }
         }
     }
