@@ -76,4 +76,7 @@
   <testcase name="testRemoveCartWhenInvalidUsernameThenReturnNotFound" classname="com.example.demo.SareetaApplicationTests" time="0.009"/>
   <testcase name="testCreateUserWhenValidRequestThenReturnSuccessfully" classname="com.example.demo.SareetaApplicationTests" time="0.004"/>
   <testcase name="testFindByIdUserWhenInvalidUsernameThenReturnNotFound" classname="com.example.demo.SareetaApplicationTests" time="0.015"/>
-  <testcase name="testFindUserByUsernameWhenValidRequestThenReturnSuccessfully" classname="com.example.demo.SareetaApplicationT
+  <testcase name="testFindUserByUsernameWhenValidRequestThenReturnSuccessfully" classname="com.example.demo.SareetaApplicationTests" time="0.007"/>
+  <testcase name="testGetAllItemsWhenValidRequestThenReturnSucessfully" classname="com.example.demo.SareetaApplicationTests" time="0.019"/>
+  <testcase name="testGetItemByIdWhenValidRequestThenReturnSucessfully" classname="com.example.demo.SareetaApplicationTests" time="0"/>
+</testsuite>
